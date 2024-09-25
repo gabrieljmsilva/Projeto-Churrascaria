@@ -1,0 +1,139 @@
+body {
+    
+    margin: 0;
+    
+}
+
+
+.corpo {
+    background: linear-gradient(to bottom, black, #656464d1);
+
+}
+
+.corpo >h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.corpo >h3 {
+    color: black;
+    font-size: 30px;
+}
+
+header  {
+    color: white;
+    background-color: black;
+}
+
+nav>a {
+    color: white;
+}
+
+
+header > nav{
+    background-color:#808080;
+    padding: 10px;
+}
+
+
+
+.container {
+    display: flex;
+    color: white;
+}
+
+
+.card {
+    padding: 16px;
+    margin: 16px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    border-radius: 50PX;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+
+.ver-menu {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.ver-menu:hover {
+    background-color: darkred;
+}
+
+
+
+footer {
+    background-color: #620101;
+    height: 50px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+
+.form-container {
+    background-color: #040000;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(179, 179, 179, 0.56);
+    width: 800px;
+    margin: auto ;
+    padding:20px;
+}
+
+.form-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+    .form-container
+input[type="text"],
+    .form-container
+input[type="email"],
+    .form-container
+input[type="date"],
+    .form-container
+input[type="time"] {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container 
+input[type="submit"] {
+    width: 60%;
+    padding: 10px;
+    background-color: #b30000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.form-container 
+input[type="submit"]:hover {
+background-color: #800000;
+}
+
+
+
