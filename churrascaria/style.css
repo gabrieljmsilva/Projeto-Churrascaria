@@ -27,7 +27,10 @@ header  {
 
 nav>a {
     color: white;
+    text-align: center;
 }
+
+
 
 
 header > nav{
